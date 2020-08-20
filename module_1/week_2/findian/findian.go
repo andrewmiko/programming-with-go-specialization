@@ -12,8 +12,8 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	input, _ := reader.ReadString('\n')
 
-	cleanText := strings.Replace(input, "\n", "", -1)
-	cleanText = strings.Replace(cleanText, "\r", "", -1)
+	cleanText := strings.Trim(input, "\n")
+	cleanText = strings.Trim(cleanText, "\r")
 	cleanText = strings.ToLower(cleanText)
 
 	foundI := strings.HasPrefix(cleanText, "i")
