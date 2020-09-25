@@ -32,10 +32,6 @@ func main() {
 		names = append(names, nameStruct)
 	}
 
-	if err := scanner.Err(); err != nil {
-		panic(err)
-	}
-
 	for _, name := range names {
 		fmt.Println(name.fname, name.lname)
 	}
