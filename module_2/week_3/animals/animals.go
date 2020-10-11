@@ -28,7 +28,7 @@ func (a *Animal) Speak() {
 func main() {
 	fmt.Println("Welcome to Animal app!")
 	fmt.Println("Please choose animal and information that you want to receive.")
-	fmt.Println("Aminals options: cow, bird, snake")
+	fmt.Println("Animal options: cow, bird, snake")
 	fmt.Println("Information options: eat, move, speak")
 	fmt.Println("Example: cow eat")
 
