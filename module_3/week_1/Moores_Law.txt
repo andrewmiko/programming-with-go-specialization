@@ -1,0 +1,14 @@
+Moores Law
+
+Moore’s Law predicted that transistor density would double every 2 years. And,
+it is not a physical law, just an observation.
+
+The physical limitations that have prevented Moore’s law from continuing to be
+true is giver below:
+
+- Transistors consume power when they switch
+- Increasing transistor density leads to increased power consumption
+- High power leads to high temperature
+- Others, voltage can’t go too low according to Dennard Scaling
+- And can’t increase frequency
+- Transistor leaks off power even when it’s not switching
